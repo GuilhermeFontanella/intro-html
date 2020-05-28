@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Inicial - Alane Canela</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <header> <!-- cabeçalho -->
+    
+        <table>
+            <tr>
+               <td> o elemento que vem em cima aparecerá primeiro </td>
+               <td> este elemento aparecerá ao lado, como numa mes </td>
+            <tr>
+        </table>                
+     
+    <h1>
+        Alane de Castro Canela <!-- cabeçalho da página com o nome do candidato --> 
+    </h1> 
+        
+    <div id="menu"> <!-- menu de navegação para o currículo -->
+    
+        <button><a href="index.html">Início</a></button><!-- volta ao index.html -->
+        <button><a href="quem_sou.html">Quem sou</a></button> <!-- apresentação -->
+        <button><a href="onde_estudei.html">Onde Estudei</a></button> <!-- mostra a formação acadêmica -->
+        <button><a href="cursos_de_formacao.html">Cursos de Especialização</a></button> <!-- cursos de esp.; exp. prof. e hab. funcionais-->
+        <button><a href="contatos.html">Contatos</a></button> <!-- contatos e redes sociais -->
+    
+    </div>
+    </header>
+    
+    <body>
+        <table>
+            <tr>
+               <td><p id="corpo">Esta página web irá lhe conduzir para uma nova experiência no que se refere ao cartão de visitas de um profissional: 
+                   <br><strong>O seu Currículo</strong>.
+                   <br>
+                   <br>         
+                    No menu a cima você pode explorar as informações e qualidades do profissional. 
+                    Vamos iniciar a análise do candidado<br> <strong> Clicando <a href="quem_sou.html"><u>aqui</u></strong></a>.</p>
+                </td>  
+                <td><img src="img/background_image.png.jpg"></td>
+            </tr>
+        </table>
+    </body>
+        <!-- <table id="rodape">
+            <tr>
+               <td> o elemento que vem em cima aparecerá primeiro </td> <img src="...">  imagem simbolo da profissão aparecerá na esquerda, antes do copyright
+               <td> este elemento aparecerá ao lado, como numa mes </td>  
+            <tr>
+        </table> -->
+    <div id="rodape">
+        
+        &copy; Alane C. Canela, <i>Gestora de Recursos Humanos</i>
+    </div>
+ 
+    <div id="rodapecontatos">        
+        Contatos:
+        Celular/Whatsapp: (84) 9 8835-1711<br> 
+        <a href="https://www.linkedin.com/" target="_blank">Meu perfil no <u>Linkedin</u></a><br>
+        E-mail: alanedecastro1@hotmail.com<br>                     
+    </div>       
+    
+</html>
